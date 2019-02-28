@@ -1,4 +1,4 @@
-package pl.mazurmarcin.javastart.lecture15.homework;
+package pl.mazurmarcin.javastart.lec15.homework;
 
 import java.io.File;
 import java.io.FileInputStream;

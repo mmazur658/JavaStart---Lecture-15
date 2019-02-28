@@ -1,4 +1,4 @@
-package pl.mazurmarcin.javastart.lecture15.homework;
+package pl.mazurmarcin.javastart.lec15.homework;
 
 public enum OnlineStoreMenu {
 	SORT(1), CHANGE_STATUS(2), ADD_ORDER(3), EXIT(0);
