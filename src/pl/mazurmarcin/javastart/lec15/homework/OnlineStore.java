@@ -87,8 +87,6 @@ public class OnlineStore {
 		System.out.println("Podaj id: ");
 		int id = getUniqueId();
 
-		getCorrectInt();
-
 		scanner.nextLine();
 		System.out.println("Podaj nazwę: ");
 		String name = scanner.nextLine();
