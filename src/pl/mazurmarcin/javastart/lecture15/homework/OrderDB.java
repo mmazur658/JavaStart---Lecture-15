@@ -8,14 +8,7 @@ public class OrderDB {
 	private List<Order> orders;
 
 	public OrderDB() {
-		orders = fileUtils.importOrdersFromFile();
-		
-		/*for (int i = 0; i < orders.size(); i++) {
-			if(orders.get(i).getName().equals("Jedzenie dla kota")) {
-				orders.get(i).setId(3);
-			}
-		}*/
-		
+		orders = fileUtils.importOrdersFromFile();		
 	}
 
 	public void exportOrdersToFile() {
